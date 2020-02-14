@@ -1,0 +1,43 @@
+.moodpics{
+    height: 200px;
+    width: 200px;
+}
+body   {
+    background-color: #29bdc1;
+}
+h1, h2, p, li{
+    font-family: "Arial Black", Serif;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+}
+a:visited{
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+h1, h2{
+    color: midnightblue;
+}
+#name{
+    text-align: center;
+}
+em{
+    font-style: normal;
+    font-weight: bold; /*not possible to make it bold with Arial Black. Nevertheless, I liked the font itself*/
+    color: green;
+}
+p:first-letter{
+    font-size:200%;
+    font-weight:bold;
+}
+p{
+    display: inline-block;
+}
+div{
+    text-align: center;
+}
